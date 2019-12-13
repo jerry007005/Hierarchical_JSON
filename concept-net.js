@@ -131,7 +131,7 @@ async function External_data(word){
 
 async function main(){
 
-	const option = 1;		//Manipulate this variable to change the data source use by program. 0 represent external module "Data.json", 1 represent data from ConceptNet API
+	const option = 0;		//Manipulate this variable to change the data source use by program. 0 represent external module "Data.json", 1 represent data from ConceptNet API
 
 	const target = process.argv[2]; 		//User given input to form hierarchical JSON format
 
