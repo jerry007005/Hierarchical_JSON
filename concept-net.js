@@ -67,7 +67,8 @@ async function Processing(start,method){
 				result[element].add(process_node)
 			}
 			else{
-				let parent = process_node.branch.length > 4 ? null : await method(element);				//Stop finding parents after the branch size greater than 5
+				//Stop finding parents after the branch size greater than 5
+				let parent = process_node.branch.length > 4 ? null : await method(element);				
 				x = new term(element, process_node, process_node.branch.concat(element), parent);
 				process_queue.push(x);
 				result[element] = x;
@@ -139,7 +140,7 @@ async function main(){
 
 	const dict = await Processing(target,method);  //Main process for the task
 
-	//Output reault
+	//Output result
 	for (var key in dict){
 	 	if (dict[key].parents == null || dict[key].parents.length == 0){
 	 		console.log(JSON.stringify(dict[key].tree, null, "\t"));
