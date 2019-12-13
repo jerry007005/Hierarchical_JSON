@@ -1,0 +1,38 @@
+{
+  "geographical_area": {
+    "environment": {
+      "medium": {
+        "vehicle": {
+          "car": {
+            "saturn": {},
+            "american_car": {
+              "saturn": {}
+            },
+            "gas_driven_automobile": {
+              "american_car": {
+                "saturn": {}
+              }
+            }
+          },
+          "wheeled_vehicle": {
+            "self_propelled_vehicle": {
+              "motor_vehicle": {
+                "car": {
+                  "saturn": {},
+                  "american_car": {
+                    "saturn": {}
+                  },
+                  "gas_driven_automobile": {
+                    "american_car": {
+                      "saturn": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

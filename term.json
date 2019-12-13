@@ -1,0 +1,26 @@
+{
+  "relation": {
+    "magnitude_relation": {
+      "proportion": {
+        "content": {
+          "idea": {
+            "concept": {
+              "quantity": {
+                "term": {}
+              },
+              "property": {
+                "magnitude": {
+                  "amount": {
+                    "quantity": {
+                      "term": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
